@@ -28,3 +28,19 @@ nav ul {
   align-items: center;
   list-style: none;
 }
+
+/* Body Styles */
+main img {
+  width: 100rem;
+}
+div.share-panel img {
+  width: 1.5rem;
+}
+
+/* Footer */
+footer .newsletter img {
+  width: 100px;
+}
+footer div#logo {
+  width: 20rem;
+}
