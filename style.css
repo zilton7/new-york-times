@@ -41,3 +41,6 @@ div.share-panel img {
 footer .newsletter img {
   width: 100px;
 }
+footer div#logo {
+  width: 20rem;
+}
