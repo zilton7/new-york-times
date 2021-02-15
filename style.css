@@ -1,0 +1,30 @@
+/* Global styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+/* Navbar styles */
+header nav {
+  display: flex;
+  width: 95%;
+  min-height: 10vh;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 2rem;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 40rem; /* Grow, Shrink, Basis*/
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
