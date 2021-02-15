@@ -12,12 +12,10 @@ html {
 /* Navbar styles */
 header nav {
   display: flex;
-  width: 95%;
   min-height: 10vh;
   align-items: center;
-  align-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin: auto;
   padding: 2rem;
 }
 
@@ -27,6 +25,17 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   list-style: none;
+}
+nav div#logo {
+  width: 20rem;
+}
+nav h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav #left-links {
+  display: flex;
 }
 
 /* Body Styles */
