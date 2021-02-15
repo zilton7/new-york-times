@@ -36,3 +36,8 @@ main img {
 div.share-panel img {
   width: 1.5rem;
 }
+
+/* Footer */
+footer .newsletter img {
+  width: 100px;
+}
