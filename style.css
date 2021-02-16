@@ -73,7 +73,7 @@ footer div.logo {
 
 /*footer-box section above the footercopyright*/
 div.footer-box {
-  width: 60%;
+  width: 70%;
   display: block;
   margin: 0 auto;
   border-top: 2px solid #e2e2e2;
@@ -111,23 +111,50 @@ h3 {
 }
 
 ul.footer-list {
-  width: 1.5rem;
+  display: inline;
+  width: 1.8rem;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 2rem;
+  
 }
 
 ul.footer-list li {
   list-style-type: none;
   color: black;
+  
 }
 
+div.sub-cont-2 {
+  border-left: 1px solid #ebebeb;
+  padding-left: 14px;
+}
+
+
+ul.footer-list-2 {
+  font-size: 1.1rem;
+}
+
+
+ul.footer-list-4 {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+div.sub-cont-4 {
+  border-top: 1px solid #ebebeb;
+    padding-top: 9px;
+}
+
+div.sub.cont-3 {
+  padding-bottom: 9px;
+}
 
 
 
 /*footer copyright*/
 nav.footer-copyright {
-  width: 60%;
+  width: 70%;
   display: block;
   margin: 0 auto;
   border-top: 1px solid #ebebeb;
