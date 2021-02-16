@@ -59,15 +59,22 @@ nav a {
 main img {
   width: 100rem;
 }
-div.share-panel img {
-  width: 1.5rem;
-}
 article h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 4rem;
   width: 60%;
   margin: auto;
   padding: 3rem 0 1rem 0;
+}
+article div.main-image {
+  display: flex;
+  justify-content: space-around;
+}
+article img#main {
+  width: 90%;
+}
+p.caption-text {
+  font-size: 1.3rem;
 }
 
 /* Footer */
