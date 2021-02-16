@@ -110,6 +110,18 @@ h3 {
     width: 15rem;  
 }
 
+ul.footer-list {
+  width: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+ul.footer-list li {
+  list-style-type: none;
+  color: black;
+}
+
 
 
 
