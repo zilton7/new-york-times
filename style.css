@@ -228,7 +228,20 @@ div.more-opinion a {
   text-decoration: none;
 }
 
+/*footer-article more for category class*/
+div.more-for-category {
+  width: 70%;
+  margin: 0 auto;
+}
 
+div.art {
+  display: flex;
+}
+
+div.sub-art {
+  display: flex;
+  flex-direction: column;
+}
 
 
 /*footer-box section above the footercopyright*/
