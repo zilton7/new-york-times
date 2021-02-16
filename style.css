@@ -111,6 +111,24 @@ article h3 {
   padding: 1rem;
   line-height: 3rem;
 }
+div.image-container {
+  background: url("/img/inflation-945.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.image-container p {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  width: 25%;
+  padding: 12rem 1rem 0 0;
+}
+div.image-container p span {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
 
 /* Footer */
 footer .newsletter img {
@@ -120,23 +138,20 @@ footer div.logo {
   width: 20rem;
 }
 
-
 /*footer copyright*/
 nav.footer-copyright {
   width: 60%;
   display: block;
   margin: 0 auto;
   border-top: 1px solid #ebebeb;
-    padding-top: 9px;
+  padding-top: 9px;
 }
 
-
 nav.footer-copyright ul {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   list-style-type: none;
   color: #666;
   line-height: 2rem;
   font-size: 1.1rem;
 }
-
