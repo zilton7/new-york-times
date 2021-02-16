@@ -120,6 +120,34 @@ footer div.logo {
   width: 20rem;
 }
 
+/*Newsleters-footer*/
+div#newsletters {
+  width: 70%;
+  margin: 0 auto;
+  
+}
+
+h3.newsletter-title {
+  display: inline-block;
+  width: 30rem;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+
+div.newsletter {
+  display:flex;
+  
+}
+
+div.newsletter-1 {
+  width: 25%;
+  margin: 0.5rem 2rem;
+  border: 1px solid #ebebeb;
+  padding: 1.5rem 1.5rem;
+  height: 30rem;
+}
+
+
 /*footer-box section above the footercopyright*/
 div.footer-box {
   width: 70%;
