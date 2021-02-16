@@ -62,6 +62,13 @@ main img {
 div.share-panel img {
   width: 1.5rem;
 }
+article h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 4rem;
+  width: 60%;
+  margin: auto;
+  padding: 3rem 0 1rem 0;
+}
 
 /* Footer */
 footer .newsletter img {
