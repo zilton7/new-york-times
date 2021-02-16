@@ -151,6 +151,86 @@ footer div.logo {
   width: 20rem;
 }
 
+/*Newsleters-footer*/
+div#newsletters {
+  width: 70%;
+  margin: 0 auto;
+  
+}
+
+h3.newsletter-title {
+  display: inline-block;
+  width: 30rem;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+
+div.newsletter {
+  display:flex;
+  
+}
+
+div.newsletter-1 {
+  width: 28%;
+  margin: 0.5rem 2rem;
+  border: 1px solid #ebebeb;
+  padding: 1.5rem 1.5rem;
+  height: 32rem;
+}
+
+p.timing {
+  font-size: 1.2rem;
+  color: rgb(136, 136, 136);
+  margin: 0.5rem;
+}
+
+h3 {
+  text-transform: uppercase;
+    color: rgb(51, 51, 51);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+p.newsleter-p{
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+a.latest {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5;
+  color: #567b95;
+  font-weight: bolder;
+  text-decoration: none;
+  
+}
+
+svg.svg-img {
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+
+div.more-opinion {
+  flex-basis: 20%;
+  text-align: left;
+  align-content: center;
+  justify-content: start;
+  padding: 1rem;
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+  
+}
+
+div.more-opinion a {
+  color: #567b95;
+  text-decoration: none;
+}
+
+
+
+
 /*footer-box section above the footercopyright*/
 div.footer-box {
   width: 70%;
