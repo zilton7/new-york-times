@@ -70,3 +70,24 @@ footer .newsletter img {
 footer div.logo {
   width: 20rem;
 }
+
+
+/*footer copyright*/
+nav.footer-copyright {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  border-top: 1px solid #ebebeb;
+    padding-top: 9px;
+}
+
+
+nav.footer-copyright ul {
+  display:flex;
+  justify-content: space-between;
+  list-style-type: none;
+  color: #666;
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
+
