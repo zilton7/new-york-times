@@ -76,6 +76,38 @@ div.footer-box {
   width: 60%;
   display: block;
   margin: 0 auto;
+  border-top: 2px solid #e2e2e2;
+  margin-bottom: 0;
+}
+
+
+div.logo-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+a.home-logo {
+  margin-top: 2rem;
+  text-decoration: none;
+  color: #60839B;
+  font-size: 1.1rem;
+}
+
+
+div.cont-1 {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: rgb(51, 51, 51);
+    font-size: 1.3rem;
+    font-weight: 700;
+    height: 2.5rem;
+    line-height: 1.5rem;
+    width: 15rem;  
 }
 
 
