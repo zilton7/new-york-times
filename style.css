@@ -71,6 +71,15 @@ footer div.logo {
   width: 20rem;
 }
 
+/*footer-box section above the footercopyright*/
+div.footer-box {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
 
 /*footer copyright*/
 nav.footer-copyright {
