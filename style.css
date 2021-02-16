@@ -58,6 +58,11 @@ nav a {
   text-decoration: none;
 }
 
+section.video {
+  width: 70%;
+  margin: auto;
+}
+
 /* Body Styles */
 main img {
   width: 100rem;
@@ -77,9 +82,14 @@ article div.main-image {
 article img#main {
   width: 100%;
 }
+article div img.image {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
 
 p.caption-text {
-  width: 70%;
+  width: 80%;
   font-size: 1.3rem;
   padding: 1rem 2rem;
   line-height: 1.7rem;
@@ -87,6 +97,9 @@ p.caption-text {
 p.caption-text span {
   font-size: 1rem;
   line-height: 0.7rem;
+}
+p.caption-text span a {
+  color: black;
 }
 p#author-top {
   line-height: 0.7rem;
