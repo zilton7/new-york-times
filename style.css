@@ -64,6 +64,21 @@ section.video {
 }
 
 /* Body Styles */
+article ul.share-panel {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  margin: auto;
+  list-style: none;
+  padding: 3rem;
+}
+i {
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  color: black;
+  background: rgba(128, 128, 128, 0.212);
+  border-radius: 50%;
+}
 main img {
   width: 100rem;
 }
@@ -141,6 +156,22 @@ div.image-container p {
 div.image-container p span {
   font-weight: bold;
   font-size: 1.1rem;
+}
+article button {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0.7rem 10rem;
+  background: #567b95;
+  border-radius: 5%;
+  text-transform: uppercase;
+}
+section#comment {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
 }
 
 /* Footer */
