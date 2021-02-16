@@ -58,6 +58,11 @@ nav a {
   text-decoration: none;
 }
 
+section.video {
+  width: 70%;
+  margin: auto;
+}
+
 /* Body Styles */
 main img {
   width: 100rem;
@@ -77,9 +82,14 @@ article div.main-image {
 article img#main {
   width: 100%;
 }
+article div img.image {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
 
 p.caption-text {
-  width: 70%;
+  width: 80%;
   font-size: 1.3rem;
   padding: 1rem 2rem;
   line-height: 1.7rem;
@@ -87,6 +97,9 @@ p.caption-text {
 p.caption-text span {
   font-size: 1rem;
   line-height: 0.7rem;
+}
+p.caption-text span a {
+  color: black;
 }
 p#author-top {
   line-height: 0.7rem;
@@ -110,6 +123,24 @@ article h3 {
   margin: auto;
   padding: 1rem;
   line-height: 3rem;
+}
+div.image-container {
+  background: url("/img/inflation-945.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.image-container p {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  width: 25%;
+  padding: 12rem 1rem 0 0;
+}
+div.image-container p span {
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 /* Footer */
@@ -200,23 +231,20 @@ div.sub.cont-3 {
 }
 
 
-
 /*footer copyright*/
 nav.footer-copyright {
   width: 70%;
   display: block;
   margin: 0 auto;
   border-top: 1px solid #ebebeb;
-    padding-top: 9px;
+  padding-top: 9px;
 }
 
-
 nav.footer-copyright ul {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   list-style-type: none;
   color: #666;
   line-height: 2rem;
   font-size: 1.1rem;
 }
-
