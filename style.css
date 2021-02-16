@@ -12,10 +12,13 @@ html {
 /* Navbar styles */
 header nav {
   display: flex;
+  position: fixed;
   min-height: 10vh;
   align-items: center;
   justify-content: space-between;
   border-bottom: solid 0.1rem rgba(0, 0, 0, 0.1);
+  background: white;
+  width: 100%;
 }
 
 nav div.logo img {
@@ -59,8 +62,54 @@ nav a {
 main img {
   width: 100rem;
 }
-div.share-panel img {
-  width: 1.5rem;
+article h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 4rem;
+  width: 60%;
+  margin: auto;
+  padding: 10rem 0 1rem 0;
+}
+article div.main-image {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+article img#main {
+  width: 100%;
+}
+
+p.caption-text {
+  width: 70%;
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  line-height: 1.7rem;
+}
+p.caption-text span {
+  font-size: 1rem;
+  line-height: 0.7rem;
+}
+p#author-top {
+  line-height: 0.7rem;
+
+  font-size: 1.3em;
+  font-weight: bold;
+}
+p.date {
+  font-size: 1.2em;
+  font-weight: initial;
+  color: rgba(95, 95, 95, 0.801);
+}
+article {
+  width: 80%;
+  margin: auto;
+}
+article p,
+article h3 {
+  font-size: 1.8rem;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  line-height: 3rem;
 }
 
 /* Footer */
