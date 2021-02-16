@@ -64,6 +64,21 @@ section.video {
 }
 
 /* Body Styles */
+article ul.share-panel {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  margin: auto;
+  list-style: none;
+  padding: 3rem;
+}
+i {
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  color: black;
+  background: rgba(128, 128, 128, 0.212);
+  border-radius: 50%;
+}
 main img {
   width: 100rem;
 }
@@ -124,23 +139,48 @@ article h3 {
   padding: 1rem;
   line-height: 3rem;
 }
-div.image-container {
-  background: url("/img/inflation-945.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+/* GRAPHIC START */
+section.graphics {
+  /* width: 90%; */
   display: flex;
+  flex-basis: 25%;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
-
-div.image-container p {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-  width: 25%;
-  padding: 12rem 1rem 0 0;
+section.graphics div {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
 }
-div.image-container p span {
+section.graphics div img {
+  width: 20rem;
+}
+section.graphics div p {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  /* width: 50%; */
+}
+section.graphics div p span {
   font-weight: bold;
   font-size: 1.1rem;
+}
+
+/* GRAPHIC END */
+article button {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0.7rem 10rem;
+  background: #567b95;
+  border-radius: 5%;
+  text-transform: uppercase;
+}
+section#comment {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
 }
 
 /* Footer */
@@ -270,7 +310,6 @@ div.footer-box {
   margin-bottom: 0;
 }
 
-
 div.logo-2 {
   display: flex;
   justify-content: space-between;
@@ -279,10 +318,9 @@ div.logo-2 {
 a.home-logo {
   margin-top: 2rem;
   text-decoration: none;
-  color: #60839B;
+  color: #60839b;
   font-size: 1.1rem;
 }
-
 
 div.cont-1 {
   margin-top: 0;
@@ -293,11 +331,11 @@ div.cont-1 {
 h3 {
   text-transform: uppercase;
   color: rgb(51, 51, 51);
-    font-size: 1.3rem;
-    font-weight: 700;
-    height: 2.5rem;
-    line-height: 1.5rem;
-    width: 15rem;  
+  font-size: 1.3rem;
+  font-weight: 700;
+  height: 2.5rem;
+  line-height: 1.5rem;
+  width: 15rem;
 }
 
 ul.footer-list {
@@ -306,13 +344,11 @@ ul.footer-list {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 2rem;
-  
 }
 
 ul.footer-list li {
   list-style-type: none;
   color: black;
-  
 }
 
 div.sub-cont-2 {
@@ -320,11 +356,9 @@ div.sub-cont-2 {
   padding-left: 14px;
 }
 
-
 ul.footer-list-2 {
   font-size: 1.1rem;
 }
-
 
 ul.footer-list-4 {
   font-weight: bold;
@@ -333,13 +367,12 @@ ul.footer-list-4 {
 
 div.sub-cont-4 {
   border-top: 1px solid #ebebeb;
-    padding-top: 9px;
+  padding-top: 9px;
 }
 
 div.sub.cont-3 {
   padding-bottom: 9px;
 }
-
 
 /*footer copyright*/
 nav.footer-copyright {
