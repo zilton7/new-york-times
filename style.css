@@ -181,6 +181,24 @@ svg.svg-img {
   margin-bottom:1rem;
 }
 
+div.more-opinion {
+  flex-basis: 20%;
+  text-align: left;
+  align-content: center;
+  justify-content: start;
+  padding: 1rem;
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+  
+}
+
+div.more-opinion a {
+  color: #567b95;
+  text-decoration: none;
+}
+
+
+
 
 /*footer-box section above the footercopyright*/
 div.footer-box {
