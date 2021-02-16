@@ -229,8 +229,33 @@ div.more-opinion a {
 }
 
 /*footer-article more for category class*/
+div.more-for-category {
+  width: 70%;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-column-gap: 3rem;
+  
+
+}
+
+div.category {
+  border-top: 1px solid rgb(66, 64, 64);
+  padding-top: 1.5rem;
+}
+
+div.sub-category {
+  border-top: 1px solid rgb(66, 64, 64);
+  padding-top: 1.5rem;
+
+}
 
 
+
+img.img-art {
+  width: 28rem;
+  height: 18rem;
+}
 
 
 
