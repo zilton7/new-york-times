@@ -225,8 +225,6 @@ section.graphics {
   flex-wrap: wrap;
 }
 
- /* width: 90% */
-
 section.graphics div {
   display: flex;
   flex-direction: column;
@@ -446,7 +444,7 @@ div.footer-box {
 }
 
 h3.art-title {
-  width:100%;
+  width: 100%;
   margin: 1.2rem 1.2rem;
   text-transform: capitalize;
 }
@@ -520,8 +518,6 @@ nav.footer-copyright {
   padding-top: 9px;
 }
 
- footer {
+footer {
    margin-bottom: 2rem;
- }
-
- 
+}
