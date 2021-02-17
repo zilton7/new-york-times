@@ -477,13 +477,15 @@ div.footer-box {
 div.logo-2 {
   display: flex;
   justify-content: space-between;
+  margin-left: -2rem;
+
 }
 
 a.home-logo {
   margin-top: 2rem;
   text-decoration: none;
   color: #60839b;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 div.cont-1 {
