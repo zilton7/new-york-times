@@ -471,11 +471,19 @@ nav.footer-copyright {
   padding-top: 9px;
 }
 
-nav.footer-copyright ul {
+nav.footer-copyright {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+} 
+
+
+nav.footer-copyright a {
   list-style-type: none;
   color: #666;
   line-height: 2rem;
   font-size: 1.1rem;
 }
+ footer {
+   margin-bottom: 2rem;
+ }
