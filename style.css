@@ -216,6 +216,9 @@ img.img-art {
 div.newsletter1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2rem;
+  
+  
 }
 
 div.more-for-category1 {
@@ -263,6 +266,58 @@ p.newsletter-p {
     line-height: 1.5rem;
     color: rgb(102, 102, 102);
 }
+
+div.newsletter-1 {
+  border: 0.8px solid rgb(199, 178, 178);
+  height: 28rem;
+  padding: 1.2rem 1.2rem;
+}
+
+div.img-b {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:2rem;
+}
+
+button.button {
+  border-radius: 50%;
+  height: 3.3rem;
+  width: 3rem;
+  background-color: white;
+  font-size: 2.8rem;
+  
+}
+
+p.timing {
+  font-size: 1.4rem;
+  color: rgb(182, 167, 167);
+  font-weight: 300;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h3.news {
+  font-size: 1.5rem;
+  font-weight:bold;
+  margin-bottom: 0.5rem;
+}
+
+p.newsletter-p {
+  font-size: 1.4rem;
+  
+
+}
+
+a.latest {
+  font-size: 1.4rem;
+  color: rgb(50,104,145);
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+
 
 
 
