@@ -432,6 +432,7 @@ ul.footer-list {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 2rem;
+  
 }
 
 ul.footer-list li {
@@ -439,18 +440,31 @@ ul.footer-list li {
   color: black;
 }
 
+ul.footer-list li a {
+  text-decoration: none;
+}
+
+.svg-icon {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-right: 1rem;
+}
+
+
 div.sub-cont-2 {
   border-left: 1px solid #ebebeb;
   padding-left: 14px;
 }
 
-ul.footer-list-2 {
+ul.footer-list-2 a {
   font-size: 1.1rem;
+  color: rgb(46, 43, 45);
 }
 
-ul.footer-list-4 {
+ul.footer-list-4 a {
   font-weight: bold;
   font-size: 1.6rem;
+  color: black;
 }
 
 div.sub-cont-4 {
