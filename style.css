@@ -71,6 +71,7 @@ div.logo {
 }
 
 /* GRAPHIC END */
+
 article button {
   color: white;
   font-size: 1.3rem;
@@ -102,6 +103,7 @@ section.video {
 }
 
 /* Body Styles */
+
 article ul.share-panel {
   display: flex;
   justify-content: center;
@@ -165,6 +167,23 @@ h3.newsletter-title-1 a {
 ul.footer-list-2 a {
   font-size: 1.1rem;
   color: rgb(46, 43, 45);
+}
+
+div.img-articles a {
+  text-decoration: none;
+}
+
+ul.footer-list-4 a {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: black;
+}
+
+nav.footer-copyright a{
+  list-style-type: none;
+  color: #666;
+  line-height: 2rem;
+  font-size: 1.1rem;
 }
 
 p.caption-text span a {
@@ -244,8 +263,6 @@ footer div.logo {
   width: 20rem;
 }
 
-/*Footer*/
-
 div.footer-cont {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -262,7 +279,6 @@ div.footer-cont-1 {
 
 img.img-art {
   height: 18rem;
-  width: 28rem;
   text-transform: capitalize;
   font-size: 1.4rem;
   width: 100%;
@@ -288,7 +304,7 @@ div.editors-pick1 {
   grid-column-gap: 2rem;
 }
 
-/*newsletter-footer*/
+/* newsletter-footer */
 
 div.newsletter {
   border-top: 1px solid rgb(37, 37, 37);
@@ -318,10 +334,9 @@ h3.newsletter-title-1 {
 
 p.newsletter-p {
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.5rem;
   color: rgb(102, 102, 102);
-  font-size: 1.4rem;
 }
 
 div.newsletter-1 {
@@ -366,7 +381,7 @@ a.latest {
   font-weight: bold;
 }
 
-/*More For Category*/
+/* More For Category */
 
 div.more-for-category {
   border-top: 1px solid rgb(37, 37, 37);
@@ -386,14 +401,6 @@ figcaption.nasa {
   margin-top: 0.3rem;
 }
 
-div.img-articles a {
-  text-decoration: none;
-}
-
-img.img-art {
-  width: 100%;
-}
-
 .span-footer {
   color: rgb(164, 169, 173);
   font-weight: 200;
@@ -401,14 +408,14 @@ img.img-art {
   font-size: 1.4rem;
 }
 
-/*Editors pick*/
+/* Editors pick */
 
 div.editors-pick {
   border-top: 1px solid rgb(37, 37, 37);
   margin: 2.5rem 2.5rem;
 }
 
-/*Most Popular category*/
+/* Most Popular category */
 
 div.sub-footer-cont2 {
   display: grid;
@@ -428,7 +435,7 @@ a.most-popular {
   line-height: 2.2rem;
 }
 
-/*footer-box section above the footercopyright*/
+/* footer-box section above the footercopyright */
 
 div.footer-box {
   width: 70%;
@@ -471,13 +478,6 @@ ul.footer-list li {
   color: black;
 }
 
-ul.footer-list-4 a {
-  font-weight: bold;
-  font-size: 1.6rem;
-  color: black;
-}
-
-
 ul.footer-list li a {
   text-decoration: none;
   color: rgb(46, 43, 45);
@@ -503,7 +503,7 @@ div.sub.cont-3 {
   padding-bottom: 9px;
 }
 
-/*footer copyright*/
+/* footer copyright */
 
 nav.footer-copyright {
   width: 70%;
@@ -518,13 +518,6 @@ nav.footer-copyright {
   flex-direction: row;
   justify-content: space-between;
 } 
-
-nav.footer-copyright a {
-  list-style-type: none;
-  color: #666;
-  line-height: 2rem;
-  font-size: 1.1rem;
-}
 
  footer {
    margin-bottom: 2rem;
