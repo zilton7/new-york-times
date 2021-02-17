@@ -22,6 +22,18 @@ header nav {
   width: 100%;
 }
 
+main img {
+  width: 100rem;
+}
+
+.icon img {
+  width: 1.5rem;
+}
+
+footer .newsletter img {
+  width: 100px;
+}
+
 nav div.logo img {
   width: 25rem;
 }
@@ -43,12 +55,19 @@ div.logo {
   padding: 2rem;
 }
 
-.icon img {
-  width: 1.5rem;
-}
-
 #login-section {
   padding: 0 2rem;
+}
+
+/* GRAPHIC END */
+article button {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0.7rem 10rem;
+  background: #567b95;
+  border-radius: 5%;
+  text-transform: uppercase;
 }
 
 #login-section button {
@@ -89,9 +108,6 @@ i {
   border-radius: 50%;
 }
 
-main img {
-  width: 100rem;
-}
 
 article h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -123,6 +139,7 @@ p.caption-text {
   padding: 1rem 2rem;
   line-height: 1.7rem;
 }
+
 p.caption-text span {
   font-size: 1rem;
   line-height: 0.7rem;
@@ -134,7 +151,6 @@ p.caption-text span a {
 
 p#author-top {
   line-height: 0.7rem;
-
   font-size: 1.3em;
   font-weight: bold;
 }
@@ -181,24 +197,15 @@ section.graphics div img {
 section.graphics div p {
   font-size: 1.5rem;
   line-height: 1.5rem;
-  /* width: 50%; */
+  
 }
 
+/* width: 50%; */
 section.graphics div p span {
   font-weight: bold;
   font-size: 1.1rem;
 }
 
-/* GRAPHIC END */
-article button {
-  color: white;
-  font-size: 1.3rem;
-  font-weight: bold;
-  padding: 0.7rem 10rem;
-  background: #567b95;
-  border-radius: 5%;
-  text-transform: uppercase;
-}
 
 section#comment {
   display: flex;
@@ -209,15 +216,13 @@ section#comment {
 }
 
 /* Footer */
-footer .newsletter img {
-  width: 100px;
-}
 
 footer div.logo {
   width: 20rem;
 }
 
 /*Footer*/
+
 div.footer-cont {
   width: 70%;
   margin: 0 auto;
@@ -341,6 +346,7 @@ a.latest {
 }
 
 /*More For Category*/
+
 div.more-for-category {
   border-top: 1px solid rgb(37, 37, 37);
   margin: 2.5rem 2.5rem;
@@ -389,12 +395,14 @@ h3.art-title {
 }
 
 /*Editors pick*/
+
 div.editors-pick {
   border-top: 1px solid rgb(37, 37, 37);
   margin: 2.5rem 2.5rem;
 }
 
 /*Most Popular category*/
+
 div.sub-footer-cont2 {
   display: grid;
   grid-template-rows: repeat(11, 8rem);
@@ -414,6 +422,7 @@ a.most-popular {
 }
 
 /*footer-box section above the footercopyright*/
+
 div.footer-box {
   width: 70%;
   display: block;
@@ -503,6 +512,7 @@ div.sub.cont-3 {
 }
 
 /*footer copyright*/
+
 nav.footer-copyright {
   width: 70%;
   display: block;
