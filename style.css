@@ -165,6 +165,17 @@ section.graphics div p span {
   font-size: 1.1rem;
 }
 
+section.graphics h3.title {
+  padding: 2rem 0 2rem 0;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+section.graphics p.description {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
 /* GRAPHIC END */
 article button {
   color: white;
@@ -195,7 +206,6 @@ footer div.logo {
 div#newsletters {
   width: 70%;
   margin: 0 auto;
-  
 }
 
 h3.newsletter-title {
@@ -206,8 +216,7 @@ h3.newsletter-title {
 }
 
 div.newsletter {
-  display:flex;
-  
+  display: flex;
 }
 
 div.newsletter-1 {
@@ -226,12 +235,12 @@ p.timing {
 
 h3 {
   text-transform: uppercase;
-    color: rgb(51, 51, 51);
-    font-size: 1.3rem;
-    font-weight: 700;
+  color: rgb(51, 51, 51);
+  font-size: 1.3rem;
+  font-weight: 700;
 }
 
-p.newsleter-p{
+p.newsleter-p {
   font-size: 1.3rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -244,12 +253,11 @@ a.latest {
   color: #567b95;
   font-weight: bolder;
   text-decoration: none;
-  
 }
 
 svg.svg-img {
-  margin-top:1rem;
-  margin-bottom:1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 div.more-opinion {
@@ -260,7 +268,6 @@ div.more-opinion {
   padding: 1rem;
   font-size: 1.3rem;
   padding-bottom: 1rem;
-  
 }
 
 div.more-opinion a {
@@ -275,8 +282,6 @@ div.more-for-category {
   display: grid;
   grid-template-columns: 80% 20%;
   grid-column-gap: 3rem;
-  
-
 }
 
 div.category {
@@ -287,19 +292,12 @@ div.category {
 div.sub-category {
   border-top: 1px solid rgb(66, 64, 64);
   padding-top: 1.5rem;
-
 }
-
-
 
 img.img-art {
   width: 28rem;
   height: 18rem;
 }
-
-
-
-
 
 /*footer-box section above the footercopyright*/
 div.footer-box {
