@@ -11,6 +11,7 @@ html {
 }
 
 /* Navbar styles */
+
 header nav {
   display: flex;
   position: fixed;
@@ -36,6 +37,16 @@ footer .newsletter img {
 
 nav div.logo img {
   width: 25rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: rgb(51, 51, 51);
+  font-size: 1.3rem;
+  font-weight: 700;
+  height: 2.5rem;
+  line-height: 1.5rem;
+  width: 15rem;
 }
 
 nav h3 {
@@ -108,7 +119,6 @@ i {
   border-radius: 50%;
 }
 
-
 article h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 4rem;
@@ -145,6 +155,18 @@ p.caption-text span {
   line-height: 0.7rem;
 }
 
+h3.newsletter-title-1 a {
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+ul.footer-list-2 a {
+  font-size: 1.1rem;
+  color: rgb(46, 43, 45);
+}
+
 p.caption-text span a {
   color: black;
 }
@@ -176,13 +198,15 @@ article h3 {
 }
 
 /* GRAPHIC START */
+
 section.graphics {
-  /* width: 90%; */
   display: flex;
   flex-basis: 25%;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+ /* width: 90%; */
 
 section.graphics div {
   display: flex;
@@ -197,15 +221,14 @@ section.graphics div img {
 section.graphics div p {
   font-size: 1.5rem;
   line-height: 1.5rem;
-  
 }
 
 /* width: 50%; */
+
 section.graphics div p span {
   font-weight: bold;
   font-size: 1.1rem;
 }
-
 
 section#comment {
   display: flex;
@@ -224,15 +247,12 @@ footer div.logo {
 /*Footer*/
 
 div.footer-cont {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
   width: 70%;
   margin: 0 auto;
   border-bottom: 2px solid #e2e2e2;
   margin-bottom: 1.5px;
-}
-
-div.footer-cont {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
 }
 
 div.footer-cont-1 {
@@ -243,6 +263,10 @@ div.footer-cont-1 {
 img.img-art {
   height: 18rem;
   width: 28rem;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  width: 100%;
+  margin: 0.5rem 0.5rem;
 }
 
 div.newsletter1 {
@@ -297,6 +321,7 @@ p.newsletter-p {
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: rgb(102, 102, 102);
+  font-size: 1.4rem;
 }
 
 div.newsletter-1 {
@@ -334,10 +359,6 @@ h3.news {
   margin-bottom: 0.5rem;
 }
 
-p.newsletter-p {
-  font-size: 1.4rem;
-}
-
 a.latest {
   font-size: 1.4rem;
   color: rgb(50, 104, 145);
@@ -358,13 +379,6 @@ div.cat-title {
   margin-left: 1rem;
 }
 
-h3.newsletter-title-1 a {
-  font-size: 1.7rem;
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
-}
-
 figcaption.nasa {
   text-align: right;
   text-decoration: none;
@@ -378,13 +392,6 @@ div.img-articles a {
 
 img.img-art {
   width: 100%;
-}
-
-h3.art-title {
-  text-transform: capitalize;
-  font-size: 1.4rem;
-  width: 100%;
-  margin: 0.5rem 0.5rem;
 }
 
 .span-footer {
@@ -450,16 +457,6 @@ div.cont-1 {
   justify-content: space-between;
 }
 
-h3 {
-  text-transform: uppercase;
-  color: rgb(51, 51, 51);
-  font-size: 1.3rem;
-  font-weight: 700;
-  height: 2.5rem;
-  line-height: 1.5rem;
-  width: 15rem;
-}
-
 ul.footer-list {
   display: inline;
   width: 1.8rem;
@@ -474,6 +471,13 @@ ul.footer-list li {
   color: black;
 }
 
+ul.footer-list-4 a {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: black;
+}
+
+
 ul.footer-list li a {
   text-decoration: none;
   color: rgb(46, 43, 45);
@@ -485,21 +489,9 @@ ul.footer-list li a {
   margin-right: 1rem;
 }
 
-
 div.sub-cont-2 {
   border-left: 1px solid #ebebeb;
   padding-left: 14px;
-}
-
-ul.footer-list-2 a {
-  font-size: 1.1rem;
-  color: rgb(46, 43, 45);
-}
-
-ul.footer-list-4 a {
-  font-weight: bold;
-  font-size: 1.6rem;
-  color: black;
 }
 
 div.sub-cont-4 {
@@ -527,13 +519,13 @@ nav.footer-copyright {
   justify-content: space-between;
 } 
 
-
 nav.footer-copyright a {
   list-style-type: none;
   color: #666;
   line-height: 2rem;
   font-size: 1.1rem;
 }
+
  footer {
    margin-bottom: 2rem;
  }
