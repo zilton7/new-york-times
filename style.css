@@ -60,14 +60,15 @@ nav a {
 
 /* Body Styles */
 
-article ul.share-panel {
+.share-panel {
   display: flex;
-  justify-content: center;
-  max-width: 35%;
-  /* margin: auto; */
+  justify-content: start;
+  max-width: 60%;
+  margin: auto;
   list-style: none;
   padding: 3rem 0;
 }
+
 i {
   font-size: 1.5rem;
   padding: 1rem 1rem;
@@ -131,15 +132,27 @@ article {
 article p,
 article h3 {
   font-size: 1.8rem;
+  text-transform: capitalize;
   width: 80%;
   margin: auto;
   padding: 1rem;
   line-height: 3rem;
+  padding: 0 0 5rem 0;
 }
 
 article a {
   color: #326891;
   font-weight: 700;
+}
+
+div.login-unlock {
+  width: 29%;
+  margin: 3rem auto;
+  padding: 2rem;
+  font-size: 1.4rem;
+  border-bottom: solid darkgrey;
+  border-top: solid darkgrey;
+  border-width: thin;
 }
 
 figure.video {
@@ -180,8 +193,9 @@ section.graphics div img {
   width: 20rem;
 }
 section.graphics div p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
+  font-weight: 100;
   /* width: 50%; */
 }
 section.graphics div p span {
@@ -215,8 +229,15 @@ section#comment {
   align-items: center;
   width: 80%;
   margin: auto;
-  justify-content: space-evenly;
+  justify-content: center;
 }
+
+.share-panel-bottom {
+  display: flex;
+  list-style: none;
+  padding: 3rem 3rem;
+}
+
 #read-comments {
   margin: 0%;
 }
