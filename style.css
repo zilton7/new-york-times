@@ -63,10 +63,10 @@ nav a {
 article ul.share-panel {
   display: flex;
   justify-content: center;
-  width: 35%;
-  margin: auto;
+  max-width: 35%;
+  /* margin: auto; */
   list-style: none;
-  padding: 3rem;
+  padding: 3rem 0;
 }
 i {
   font-size: 1.5rem;
@@ -215,7 +215,10 @@ section#comment {
   align-items: center;
   width: 80%;
   margin: auto;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+#read-comments {
+  margin: 0%;
 }
 
 /* Footer */
