@@ -431,6 +431,7 @@ ul.footer-list {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 2rem;
+  
 }
 
 ul.footer-list li {
@@ -438,18 +439,32 @@ ul.footer-list li {
   color: black;
 }
 
+ul.footer-list li a {
+  text-decoration: none;
+  color: rgb(46, 43, 45);
+}
+
+.svg-icon {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-right: 1rem;
+}
+
+
 div.sub-cont-2 {
   border-left: 1px solid #ebebeb;
   padding-left: 14px;
 }
 
-ul.footer-list-2 {
+ul.footer-list-2 a {
   font-size: 1.1rem;
+  color: rgb(46, 43, 45);
 }
 
-ul.footer-list-4 {
+ul.footer-list-4 a {
   font-weight: bold;
   font-size: 1.6rem;
+  color: black;
 }
 
 div.sub-cont-4 {
@@ -470,11 +485,19 @@ nav.footer-copyright {
   padding-top: 9px;
 }
 
-nav.footer-copyright ul {
+nav.footer-copyright {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+} 
+
+
+nav.footer-copyright a {
   list-style-type: none;
   color: #666;
   line-height: 2rem;
   font-size: 1.1rem;
 }
+ footer {
+   margin-bottom: 2rem;
+ }
