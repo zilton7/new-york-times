@@ -59,7 +59,13 @@ nav a {
 }
 
 section.video {
-  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4rem;
+}
+
+.video-wrapper {
   margin: auto;
 }
 
@@ -138,6 +144,11 @@ article h3 {
   margin: auto;
   padding: 1rem;
   line-height: 3rem;
+}
+
+article a {
+  color: #326891;
+  font-weight: 700;
 }
 /* GRAPHIC START */
 section.graphics {
