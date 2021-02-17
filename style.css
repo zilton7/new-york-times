@@ -200,6 +200,7 @@ div.footer-cont {
 div.footer-cont {
   display: grid;
   grid-template-columns: 3fr 1fr;
+  
 }
 
 div.footer-cont-1 {
@@ -226,6 +227,41 @@ div.editors-pick1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
+}
+
+/*newsletter-footer*/
+
+div.newsletter {
+  border-top: 1px solid rgb(37, 37, 37);
+  margin: 2.5rem 2.5rem;
+}
+
+div.footer-cont2 {
+  border-top: 1px solid rgb(37, 37, 37);
+  margin-top: 2.5rem;
+}
+
+div.newsletter-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 2rem;
+}
+
+h3.newsletter-title-1 {
+  text-transform: capitalize;
+  color: rgb(51, 51, 51);
+  font-size: 1.7rem;
+  font-weight: 700;
+  height: 2rem;
+  line-height: 1.5rem;
+  width: 30rem;
+}
+
+p.newsletter-p {
+  font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: rgb(102, 102, 102);
 }
 
 
