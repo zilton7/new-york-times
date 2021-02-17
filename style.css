@@ -191,10 +191,12 @@ footer div.logo {
   width: 20rem;
 }
 
-/*Newsleters-footer*/
+/*Footer*/
 div.footer-cont {
   width: 70%;
   margin: 0 auto;
+  border-bottom: 2px solid #e2e2e2;
+  margin-bottom: 1.5px;
 }
 
 div.footer-cont {
@@ -225,12 +227,13 @@ div.more-for-category1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 1.5rem;
-  grid-row-gap: 2rem;
+  grid-row-gap: 3rem;
 }
 
 div.editors-pick1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2rem;
 
 }
 
@@ -365,15 +368,15 @@ h3.art-title {
   font-weight: 200;
   word-spacing: 1px;
   font-size:1.4rem;
+ 
 }
 
-
-
-
-
-
-
-
+/*Editors pick*/
+div.editors-pick {
+  border-top: 1px solid rgb(37, 37, 37);
+  margin: 2.5rem 2.5rem;
+  
+}
 
 
 /*footer-box section above the footercopyright*/
