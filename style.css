@@ -197,6 +197,36 @@ div.footer-cont {
   margin: 0 auto;
 }
 
+div.footer-cont {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+div.footer-cont-1 {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+
+img.img-art {
+  height: 18rem;
+  width: 28rem;
+}
+
+div.newsletter1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.more-for-category1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.editors-pick1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
 
 
 
