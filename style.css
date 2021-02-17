@@ -442,6 +442,7 @@ ul.footer-list li {
 
 ul.footer-list li a {
   text-decoration: none;
+  color: rgb(46, 43, 45);
 }
 
 .svg-icon {
