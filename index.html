@@ -371,6 +371,34 @@
             </section>
         </article>
     </main>
+    <form id="form" action="#" method="post">
+        <label class="label-tab" for="name">Name</label><br>
+        <input class="input-tab" type="text" id="name" name ="name" maxlength="20" placeholder="Enter your name" required><br>
+
+        <label class="label-tab" for="email">Email</label><br>
+        <input class="input-tab" type="text" id="email" name ="email" maxlength="20" placeholder="Enter your email" required><br>
+        
+        <label class="label-tab" for="age">Age</label><br>
+        <input class="input-tab" type="number" id="age" name ="age" min="0" max="100" placeholder="Enter your age" required><br>
+
+        <label class="label-tab" for="comment">Additional comments</label><br>
+        <textarea id="textarea" name="textarea" rows="4" cols="40" maxlength="250" placeholder="“Type your comment here…" required></textarea><br>
+
+        <p class="radio-p">What is your overall opinion about this article</p><br>
+
+        <input type="radio" id="positive" name="opinion" value="positive">
+        <label for="male">Positive</label><br>
+        <input type="radio" id="negative" name="opinion" value="negative">
+        <label for="female">Female</label><br>
+        <input type="radio" id="neutral" name="opinion" value="neutral">
+        <label for="neutral">Neutral</label><br>
+
+        <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+        <label for="vehicle1">I want to subscribe to the newsletter</label><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
     <footer>
         <div class="footer-cont">
             <div class="footer-cont1">
@@ -692,6 +720,7 @@
                         <li><a href="https://www.nytimes.com/spotlight/pop-culture">Pop Culture</a></li>
                         <li><a href="https://www.nytimes.com/section/arts/television">Television</a></li>
                         <li><a href="https://www.nytimes.com/section/theater">Theater</a></li>
+                        ~
                         <li><a href="https://www.nytimes.com/video/arts">Video: Arts</a></li>
                     </ul>
                 </div>
