@@ -381,22 +381,30 @@
         <label class="label-tab" for="age">Age</label><br>
         <input class="input-tab" type="number" id="age" name ="age" min="0" max="100" placeholder="Enter your age" required><br>
 
-        <label class="label-tab" for="comment">Additional comments</label><br>
+        <label class="label-tab" for="comment">Additional comments...</label><br>
         <textarea id="textarea" name="textarea" rows="4" cols="40" maxlength="250" placeholder="“Type your comment here…" required></textarea><br>
 
         <p class="radio-p">What is your overall opinion about this article</p><br>
 
-        <input type="radio" id="positive" name="opinion" value="positive">
-        <label for="male">Positive</label><br>
-        <input type="radio" id="negative" name="opinion" value="negative">
-        <label for="female">Female</label><br>
-        <input type="radio" id="neutral" name="opinion" value="neutral">
-        <label for="neutral">Neutral</label><br>
+        <div class="checkbox">
+            <input class="checkbox-1" type="radio" id="positive" name="opinion" value="positive">
+            <label class="opinion" for="male">Positive</label>
+        </div>
+        <div class="checkbox">
+            <input class="checkbox-1" type="radio" id="negative" name="opinion" value="negative">
+            <label class="opinion" for="female">Female</label>
+        </div>
+        <div class="checkbox">
+            <input class="checkbox-1" type="radio" id="neutral" name="opinion" value="neutral">
+            <label class="opinion" for="neutral">Neutral</label>
+        </div>
 
-        <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
-        <label for="vehicle1">I want to subscribe to the newsletter</label><br>
+        <div class="checkbox">
+            <input class="checkbox-1" type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+            <label for="vehicle1">I want to subscribe to the newsletter</label>
+        </div>
 
-        <input type="submit" value="Submit">
+        <input id="button" type="submit" value="Submit">
 
     </form>
     <footer>
