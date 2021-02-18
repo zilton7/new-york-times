@@ -318,7 +318,7 @@ p.radio-p {
 div.checkbox {
   display: flex;
   flex-direction: row;
-  margin-bottom: 1.5rem;;
+  margin-bottom: 1.5rem;
 }
 
 input.checkbox-1 {
@@ -605,5 +605,5 @@ nav.footer-copyright {
 }
 
 footer {
-   margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
