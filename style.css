@@ -15,7 +15,7 @@ html {
 header nav {
   display: flex;
   position: fixed;
-  min-height: 10vh;
+  height: 4.5rem;
   align-items: center;
   justify-content: space-between;
   border-bottom: solid 0.1rem rgba(0, 0, 0, 0.1);
@@ -59,6 +59,7 @@ nav #left-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 1rem;
 }
 
 .icon,
@@ -98,24 +99,32 @@ nav a {
 }
 
 section.video {
+  display: block;
   width: 70%;
-  margin: auto;
+  margin: auto auto auto 40rem;
 }
 
 /* Body Styles */
 
 article ul.share-panel {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   width: 35%;
   margin: auto;
   list-style: none;
   padding: 3rem;
+  border-top: 1px solid #ebebeb;
+
+}
+
+article ul.share-panel-1 {
+  margin: auto auto auto 2px;
 }
 
 i {
   font-size: 1.5rem;
   padding: 1rem 1rem;
+  margin-left: 1rem;
   color: black;
   background: rgba(128, 128, 128, 0.212);
   border-radius: 50%;
@@ -125,8 +134,9 @@ article h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 4rem;
   width: 60%;
-  margin: auto;
+  margin: 0 45rem;
   padding: 10rem 0 1rem 0;
+  text-align: left;
 }
 
 article div.main-image {
@@ -146,6 +156,22 @@ article div img.image {
 }
 
 p.caption-text {
+  width: 80%;
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  line-height: 1.7rem;
+  
+}
+
+p.caption-text-1 {
+  width: 80%;
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  line-height: 1.7rem;
+  margin: auto auto auto 0.2rem;
+}
+
+p.caption-text-1 span {
   width: 80%;
   font-size: 1.3rem;
   padding: 1rem 2rem;
@@ -251,7 +277,7 @@ section#comment {
   display: flex;
   align-items: center;
   width: 80%;
-  margin: auto;
+  margin: auto auto auto 40rem;
   justify-content: center;
 }
 
