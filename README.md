@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+`![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
 
@@ -54,3 +54,4 @@ Give a ⭐️ if you like this project! ⭐️
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
+`
