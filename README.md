@@ -2,7 +2,7 @@
 
 # Project Name
 
-> New York Times is a Microverse's Week 1 Project intended to help learn GitHub basics.
+> Hell oWorld is a Microverse's Week 1 Project intended to help learn GitHub basics.
 
 ![screenshot](./app_screenshot.png)
 
@@ -14,7 +14,7 @@ There is not many feaures, appart from Microverse's linters.
 
 ## Live Demo
 
-[Live Demo Link](https://zilton7.github.io/new-york-times)
+[Live Demo Link](https://zilton7.github.io/hello-world/)
 
 ## Getting Started
 
@@ -24,16 +24,21 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Using Html and CSS 
-Properly arranging your code
-Using Flex and Grid to design the pages
-Finishing the project in 5 days
+### Setup
+
+### Install
+
+### Usage
+
+### Run tests
+
+### Deployment
 
 ## Author
 
-- GitHub: [@Solenka1](https://github.com/Solenka1)
-- Twitter: [@GorgiMitev](https://twitter.com/GorgiMitev
-- LinkedIn: [gorgi-mitev](https://www.linkedin.com/in/gorgi-mitev-a350311b8/)
+- GitHub: [@zilton7](https://github.com/zilton7)
+- Twitter: [@devnor7](https://twitter.com/devnor7
+- LinkedIn: [zil-norvilis](https://www.linkedin.com/in/zil-norvilis)
 
 ## 🤝 Contributing
 
@@ -43,7 +48,7 @@ Feel free to check the [issues page](issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project! ⭐️
+Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
