@@ -4,7 +4,7 @@
 
 > New York Times is a Microverse's Week 1 Project intended to help learn GitHub basics.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./img/screenshot.png)
 
 There is not many feaures, appart from Microverse's linters.
 

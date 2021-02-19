@@ -98,10 +98,9 @@ nav a {
   text-decoration: none;
 }
 
-section.video {
-  display: block;
-  width: 70%;
-  margin: auto auto auto 40rem;
+.videoWrapper {
+  width: 50%;
+  margin: 0 auto;
 }
 
 /* Body Styles */
@@ -133,9 +132,9 @@ article h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 4rem;
   width: 60%;
-  margin: 0 45rem;
+  margin: 0 auto;
   padding: 10rem 0 1rem 0;
-  text-align: left;
+  text-align: center;
 }
 
 article div.main-image {
@@ -145,7 +144,8 @@ article div.main-image {
 }
 
 article img#main {
-  width: 100%;
+  width: 80%;
+  height: auto;
 }
 
 article div img.image {
@@ -247,6 +247,9 @@ section.graphics {
   flex-basis: 25%;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  
 }
 
 section.graphics div {
@@ -274,9 +277,9 @@ section.graphics div p span {
 section#comment {
   display: flex;
   align-items: center;
-  width: 80%;
-  margin: auto auto auto 40rem;
-  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+ 
 }
 
 /* Form */
