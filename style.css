@@ -249,7 +249,6 @@ section.graphics {
   flex-wrap: wrap;
   width: 80%;
   margin: 0 auto;
-  
 }
 
 section.graphics div {
@@ -279,7 +278,6 @@ section#comment {
   align-items: center;
   width: 50%;
   margin: 0 auto;
- 
 }
 
 /* Form */
