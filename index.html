@@ -31,17 +31,15 @@
                 </a>
             </div>
             <div id="login-section">
-                <a href="https://www.nytimes.com/subscription?campaignId=9YU8R">
-                    <button type="submit">Subscribe Now</button>
-                </a>
-                <a href="https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi">
-                    <button type="submit">Log In</button>
-                </a>
+                <button type="submit">Subscribe Now</button>
+                <button type="submit">Log In</button>
+                
             </div>
         </nav>
     </header>
     <main class="main-body">
         <article>
+
             <h2>Space Ripples Reveal Big Bang’s<br>Smoking Gun</h2>
 
             <ul class="share-panel">
@@ -67,6 +65,7 @@
                     <a href="#"><i class="far fa-comment" aria-details="comments-icon">615</i></a>
                 </li>
             </ul>
+        
             <div class="main-image">
                 <img id='main' src="./img/18cosmos-superJumbo.webp" alt="main image">
                 <p class="caption-text">Alan Guth was one of the first physicists to hypothesize the existence of
@@ -214,11 +213,12 @@
                 Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team, knocked on his door with a bottle
                 of Champagne to tell him the news.
             </p>
-            <section class="video">
-                <div>
-                    <iframe aria-label="stanford Video" width="560" height="315"
+            <section class="videoWrapper">
+
+                
+                <iframe aria-label="stanford Video" width="560" height="315"
                         src="https://www.youtube.com/embed/ZlfIVEy_YOA"></iframe>
-                </div>
+                
                 <p class="caption-text-1">Stanford Professor Andrei Linde celebrates physics
                     breakthrough Credit...<span>CreditVideo by
                         StanfordUniversity</span>
@@ -371,6 +371,42 @@
             </section>
         </article>
     </main>
+    <form id="form" action="#" method="post">
+        <label class="label-tab" for="name">Name</label><br>
+        <input class="input-tab" type="text" id="name" name ="name" maxlength="20" placeholder="Enter your name" required><br>
+
+        <label class="label-tab" for="email">Email</label><br>
+        <input class="input-tab" type="text" id="email" name ="email" maxlength="20" placeholder="Enter your email" required><br>
+        
+        <label class="label-tab" for="age">Age</label><br>
+        <input class="input-tab" type="number" id="age" name ="age" min="0" max="100" placeholder="Enter your age" required><br>
+
+        <label class="label-tab" for="textarea">Additional comments...</label><br>
+        <textarea id="textarea" name="textarea" rows="4" cols="40" maxlength="250" placeholder="“Type your comment here…" required></textarea><br>
+
+        <p class="radio-p">What is your overall opinion about this article</p><br>
+
+        <div class="checkbox">
+            <input class="checkbox-1" type="radio" id="positive" name="opinion" value="positive">
+            <label class="opinion" for="positive">Positive</label>
+        </div>
+        <div class="checkbox">
+            <input class="checkbox-1" type="radio" id="negative" name="opinion" value="negative">
+            <label class="opinion" for="negative">Negative</label>
+        </div>
+        <div class="checkbox">
+            <input class="checkbox-1" type="radio" id="neutral" name="opinion" value="neutral">
+            <label class="opinion" for="neutral">Neutral</label>
+        </div>
+
+        <div class="checkbox">
+            <input class="checkbox-1" type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+            <label for="newsletter">I want to subscribe to the newsletter</label>
+        </div>
+
+        <input id="button1" type="submit" value="Submit">
+
+    </form>
     <footer>
         <div class="footer-cont">
             <div class="footer-cont1">
