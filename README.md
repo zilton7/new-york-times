@@ -1,6 +1,6 @@
 `![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# New York Times Page
 
 > New York Times page
 ![screenshot](./img/screenshot.png)
