@@ -2,8 +2,7 @@
 
 # Project Name
 
-> New York Times is a Microverse's Week 1 Project intended to help learn GitHub basics.
-
+> New York Times page
 ![screenshot](./img/screenshot.png)
 
 There is not many feaures, appart from Microverse's linters.
@@ -32,7 +31,7 @@ Finishing the project in 5 days
 ## Author
 
 - GitHub: [@Solenka1](https://github.com/Solenka1)
-- Twitter: [@GorgiMitev](https://twitter.com/GorgiMitev
+- Twitter: [@GorgiMitev](https://twitter.com/GorgiMitev)
 - LinkedIn: [gorgi-mitev](https://www.linkedin.com/in/gorgi-mitev-a350311b8/)
 
 ## 🤝 Contributing
