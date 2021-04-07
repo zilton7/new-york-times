@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# NYT Clone
 
 > New York Times is a Microverse's Week 1 Project intended to help learn GitHub basics.
 
